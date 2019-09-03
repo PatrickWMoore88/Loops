@@ -81,6 +81,12 @@ def border_msg(msg):
     result = h + '\n'"* "+msg+" *"'\n' + h
     print(result)
 border_msg(display)
+
+text = input('Text? ')
+text_length = len(text)
+print('*' * (text_length +4)
+print('*' + text+ '*')
+print('*' * (text_length +4))
 print("=========================================")
 #Triangle Numbers
 for num in range(1, 100):
